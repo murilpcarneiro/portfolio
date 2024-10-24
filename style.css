@@ -6,7 +6,7 @@
   padding: 0;
   margin: 0;
   scroll-behavior: smooth;
-  font-size: 62.5%;
+  font-size: 42.5%;
 }
 
 .bayon-regular {
@@ -22,27 +22,77 @@ body {
 }
 
 .hi {
-  margin-top: 3.5rem;
-  margin-left: 2.7rem;
-  font-family: 'Beiruti', sans-serif;
-  font-size: 3.4rem;
+  display: inline-block;
+  margin-top: 3rem;
+  margin-left: 3rem;
+  font-family: Beiruti;
+  font-size: 3.6rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
 }
 
 .titulo-home {
-  margin-top: 1rem;
-  margin-left: 6.4rem;
-  font-family: "Bayon", sans-serif;
-  font-size: 4.8rem;
+  display: flex;
+  margin-top: 4.3rem;
+  margin-left: 8.2rem;
+  text-align: center;
+  font-family: Bayon;
+  font-size: 6.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .subtitulo-home {
-  font-family: "Baumans", system-ui;
-  font-size: 2.4rem;
+  text-align: center;
+  font-family: Baumans;
+  font-size: 3.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
 
 .descricao-home {
-  margin-top: 2rem;
-  margin-left: 10rem;
-  width: 40.5rem;
-  height: 14rem;
+  display: flex;
+  margin-top: 2.3rem;
+  margin-left: 11.1rem;
+  width: 56.3rem;
+  height: 22.3rem;
+  flex-shrink: 0;
+}
+
+.links-home {
+  display: flex;
+  flex-direction: column;
+  width: fit-content;
+  align-items: center;
+  margin-left: 187.3rem;
+  margin-top: -7rem;
+}
+
+.links-home a {
+  text-decoration: none;
+  color: #F0F0F0;
+  font-family: Bayon;
+  font-size: 6.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+.titulo-about-me {
+  display: inline-block;
+  font-family: Bayon;
+  margin: 7rem 0 0 7rem;
+  font-size: 6.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.img-home {
+  height: 5rem;
+  margin-left: 178.4rem;
 }
