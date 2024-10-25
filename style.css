@@ -104,6 +104,11 @@ body {
   line-height: normal;
 }
 
+.links-home a:hover {
+  transform: translate(-0.5rem, -0.5rem);
+  transition: 0.5s ease-in-out;
+}
+
 .img-home {
   height: 5rem;
 }
