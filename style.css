@@ -121,7 +121,7 @@ body {
   flex-shrink: 0;
   margin-left: 32.6rem;
   margin-top: 6.5rem;
-  background: url(./367390587_7331371446879445_3043983826881100514_n.jpg) lightgray 50% / cover no-repeat;
+  background: url(./imagens/367390587_7331371446879445_3043983826881100514_n.jpg) lightgray 50% / cover no-repeat;
 }
 
 .card-img p {
@@ -170,13 +170,21 @@ body {
   padding-top: 3.3rem;
 }
 
+.texto-projeto {
+  margin: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .container-projeto h3 {
+  display: inline-block;
   font-family: Bayon;
   font-size: 4rem;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
-  margin-left: 9.8rem;
 }
 
 .paragrafo-projeto {
